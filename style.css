@@ -1,0 +1,63 @@
+body {
+    background: url("calculator-bg.jpg");
+    background-size: cover;
+    font-family: Poppins, sans-serif;
+    margin: 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+span {
+    border-bottom: 2px solid black;
+    padding: 4px;
+}
+
+button {
+    margin: 30px 0;
+    background: white;
+    color: black;
+    border: 1px solid black;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px 8px;
+    width: 100px;
+    border-radius: 10px;
+}
+input{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+}
+input:focus{
+    width: 200px;
+    border: none;
+    opacity: 80%;
+}
+p{
+    color: #ffffff;
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+a:hover,button:hover{
+    opacity: 60%;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.console{
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 5px solid #ffffff;
+    border-radius: 8px;
+    padding: 8px;
+    padding-bottom: 20px;
+    
+}
